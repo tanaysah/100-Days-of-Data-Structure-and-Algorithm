@@ -23,6 +23,7 @@ Output:
 
 Explanation: Insert 3 at position 3, elements [4,5,6] shift right*/
 
+//tanaysah
 #include <stdio.h>
 
 int main() {
@@ -50,3 +51,4 @@ int main() {
 
     return 0;
 }
+
