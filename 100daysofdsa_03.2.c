@@ -17,7 +17,7 @@ Constraints:
 
 */
 
-include <stdio.h>
+#include <stdio.h>
 int missingNum(int *arr, int size) {
     long long expectedSum, actualSum = 0;
 
@@ -32,3 +32,4 @@ int missingNum(int *arr, int size) {
     // Missing number
     return (int)(expectedSum - actualSum);
 }
+
